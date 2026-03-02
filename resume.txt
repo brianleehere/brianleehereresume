@@ -1,0 +1,32 @@
+Brian Lee brianjunelee@gmail.com | (408) 205-2495 | linkedin.com/in/brianjunelee/ 
+Product leader with 12+ years at Snap, Meta, YouTube, and Chainlink. Scaled Snap from 107M to 363M DAU while building infrastructure for hypergrowth (200→6,000 employees). Drove $63M ARR at Chainlink, shipping 254+ features across 23 teams. Currently building AI products and advising NVIDIA Inception startups. 
+WORK EXPERIENCE 
+Chainlink Labs - Product Operations Manager Sep 2022 - July 2024 New York, NY 
+● Drove $63M ARR in Data Feeds by directing CI/CD pipeline implementations, achieving first-ever 100% SLA adherence that increased customer satisfaction and retention 
+● Created operating systems and quarterly planning frameworks across 23+ cross-functional teams, aligning engineering, research, data science, and marketing to ship 254+ features tied to product vision and business impact 
+● Led 3 global 0-to-1 product launches, aligning 21+ cross-regional stakeholders and establishing early access programs and launch playbooks through PRDs and executive presentations to drive $2.5M in first-year revenue 
+● Accelerated Data Feeds product delivery by 27% and reduced cross-team blockers by 50% through data-driven workflow optimizations (SQL analysis, performance dashboards, usage metrics) ● Built product operations infrastructure and analytics dashboards by integrating JIRA, Salesforce, and BigQuery through custom APIs and automation scripts, increasing team velocity by 110% ● Scaled Product Operations team 3x, establishing 0-to-1 and 1-to-N frameworks while coaching senior leaders on Agile/Scrum execution and stakeholder management 
+Future Proof Homes - AI / ML Advisor July 2024 - Present San Francisco, CA 
+● Drive AI product strategy leveraging frontier models (Claude, Llama) through prototyping (Lovable, Replit) and customer validation; accepted into NVIDIA's Inception program for top AI startups ● Advise 0-to-1 development for private AI assistant hardware, integrating local LLMs and open-source automation to deliver privacy-first smart home experiences 
+Snap Inc. - Technical Program Manager Apr 2017 - Sep 2022 Los Angeles, CA 
+● Enabled a 107M DAU increase by driving success metrics, 1,400+ A/B tests and 162+ product OKRs; improved engagement and performance via cross-functional leadership stand-ups and agile sprints ● Saved $36M in infrastructure costs by leading a cost-savings hackathon; reviewed, structured, and prioritized 219 projects from 139 engineers, streamlining production and CSP expenses (AWS, GCP) ● Managed an AI/ML-powered A/B testing console as connective tissue between Research, ML Engineering, and product teams, coaching 1,100+ employees on experiment optimization with human-in-the-loop checks, data-driven insights, and enhanced UX 
+● Scaled systems infrastructure from 200 to 6,000+ employees, driving API integration, configuration, security, and rollout of multi-million dollar enterprise SaaS tools like JIRA, Confluence, and Slack ● Reduced experiment velocity friction by 34% by improving product development processes through user research and SQL analysis, creating auto-launch templates that saved 200+ dev hours quarterly ● First TPM at Snapchat; promoted 6 times in 5 years for leadership and execution excellence across large-scale, cross-functional initiatives 
+Release Management Engineer Jul 2016 - May 2017
+● Managed bi-weekly release cycles for 500+ features across iOS and Android, ensuring SOX and GDPR compliance through cross-functional coordination with Engineering, Legal, Design, Security, and Product 
+● Maintained GitHub versioning for bi-weekly mobile app releases; cleaned release branches, reviewed pull requests, and built iOS and Android Alpha, Master, and Release candidates 
+Product Analyst Apr 2015 - Jul 2016 ● Led front-end and back-end redesign of support.snapchat.com (1M+ daily visitors) through voice of customer synthesis from 112,000+ support tickets, improving user experience and reducing escalations by 96% 
+● Built and trained 30% of initial Community Support team, establishing standardized hiring and onboarding processes that reduced ramp-up time by 50% 
+YouTube - Policy Operations Associate Oct 2014 - Mar 2015 San Bruno, CA 
+● Reviewed 3,600+ user take-down requests monthly, ensuring compliance with privacy, legal, and safety policies; ranked among top admins for both volume and quality 
+● Promoted to San Bruno’s Community Support Point-of-Contact for Privacy Issues within three months, safeguarding creative freedoms for creators and users 
+● Partnered with Product & Engineering teams to create and enforce QA metrics for new hires ● Created 6 global review tools from internal feedback and SQL data dives for personalized interactions and automated, accurate and efficient review, impacting 67,000+ customer support tickets 
+Facebook - User Operations Specialist Oct 2013 - Oct 2014 Menlo Park, CA 
+● Filed the most operational tasks to improve processing tools from a 10 person team, surpassing quarterly goals, implementing solutions equal to 25+ hours of ticketing efficiency per rep ● Collaborated with Engineering, Legal, and Communications to shape strategy and address policy concerns ahead of global iOS and Android product launches 
+● Enforced trust and safety policy at scale for 1.28B+ users, optimizing content moderation and platform trust 
+● Managed multiple Facebook advertisements - personal business projects reached 250,000+ users and saw an average 480% page growth across all marketing campaigns 
+EDUCATION  
+University of California - San Diego  BA, Political Science - International Relations  
+● Robert T. Matsui Fellowship, Order of Omega Honor Society, President’s Volunteer Service Award, National Political Science Honor Society, Sigma Chi Fraternity Philanthropy Honor 
+SKILLS & INTERESTS 
+● Skills: Agile, Scrum, A/B Experimentation, JIRA (Architecture, JQL, configurations, scripting), SQL, Sketch, Figma, CSS, HTML, Adobe Illustrator, Photoshop, Git, Google Analytics 
+● Interests: AI, Blockchain products, Tech policy, E-commerce, building culture & community
