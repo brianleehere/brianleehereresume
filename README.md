@@ -8,7 +8,7 @@ A personal portfolio site with an AI-powered chatbot, built end-to-end with [Cla
 
 ## What This Is
 
-A clean, responsive personal site with one differentiating feature: a conversational AI chatbot at the bottom of the page that answers questions about my professional background in real time. Visitors can ask things like *"What did Brian do at Snap?"* or *"Tell me about AMI SOCIAL"* and get specific, context-aware responses powered by Claude.
+A clean, responsive personal site with one differentiating feature: a conversational AI chatbot at the bottom of the page that answers questions about my professional background in real time. Visitors can ask things like *"What did Brian do at Snap?"* or *"What is Brian's Product Manager Experience?"* and get specific, context-aware responses powered by Claude.
 
 The entire project — frontend, API integration, deployment — was built in a single afternoon using Claude Code from the terminal.
 
@@ -44,7 +44,7 @@ Building with Claude Code gave me firsthand perspective on the developer experie
 
 **What works well:**
 - The human-in-the-loop permission model builds trust — you see every command before it runs and can course-correct in real time
-- The iteration loop (describe → build → preview → refine) felt fast and intuitive
+- The iteration loop (describe → build → preview → refine) felt fast and intuitive!
 - API integration was smooth — streaming responses worked out of the box with minimal configuration
 
 **Where there's room to improve:**
