@@ -135,18 +135,18 @@ export default function Chat() {
     <div className="mx-auto w-full max-w-2xl">
       <div className="overflow-hidden rounded-2xl border border-(--color-border) bg-(--color-card)">
         {/* Messages area */}
-        <div className="h-[400px] overflow-y-auto p-6">
+        <div className="h-[300px] overflow-y-auto p-4 sm:h-[400px] sm:p-6">
           {messages.length === 0 ? (
-            <div className="flex h-full flex-col items-center justify-center gap-4">
+            <div className="flex h-full flex-col items-center justify-center gap-3 sm:gap-4">
               <p className="text-sm text-(--color-text-secondary)">
                 Ask me anything about Brian&apos;s background
               </p>
-              <div className="flex flex-wrap justify-center gap-2">
+              <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:justify-center">
                 {STARTERS.map((q) => (
                   <button
                     key={q}
                     onClick={() => sendMessage(q)}
-                    className="rounded-full border border-(--color-border) px-4 py-2 text-sm text-(--color-text-secondary) transition-colors hover:border-(--color-accent) hover:text-(--color-accent)"
+                    className="rounded-full border border-(--color-border) px-3 py-1.5 text-xs transition-colors hover:border-(--color-accent) hover:text-(--color-accent) text-(--color-text-secondary) sm:px-4 sm:py-2 sm:text-sm"
                   >
                     {q}
                   </button>
@@ -181,13 +181,13 @@ export default function Chat() {
         </div>
 
         {/* Input area */}
-        <div className="border-t border-(--color-border) p-4">
+        <div className="border-t border-(--color-border) p-3 sm:p-4">
           <form
             onSubmit={(e) => {
               e.preventDefault();
               sendMessage(input);
             }}
-            className="flex gap-3"
+            className="flex gap-2 sm:gap-3"
           >
             <input
               type="text"
@@ -195,12 +195,12 @@ export default function Chat() {
               onChange={(e) => setInput(e.target.value)}
               placeholder="Ask about Brian's experience..."
               disabled={isStreaming}
-              className="flex-1 rounded-xl border border-(--color-border) bg-(--color-bg) px-4 py-3 text-sm text-(--color-text) placeholder:text-(--color-text-secondary) focus:border-(--color-accent) focus:outline-none disabled:opacity-50"
+              className="min-w-0 flex-1 rounded-xl border border-(--color-border) bg-(--color-bg) px-3 py-2.5 text-sm text-(--color-text) placeholder:text-(--color-text-secondary) focus:border-(--color-accent) focus:outline-none disabled:opacity-50 sm:px-4 sm:py-3"
             />
             <button
               type="submit"
               disabled={isStreaming || !input.trim()}
-              className="rounded-xl bg-(--color-accent) px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-(--color-accent-hover) disabled:opacity-50"
+              className="shrink-0 rounded-xl bg-(--color-accent) px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-(--color-accent-hover) disabled:opacity-50 sm:px-5 sm:py-3"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

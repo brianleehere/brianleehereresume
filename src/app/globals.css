@@ -46,4 +46,6 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   transition: background-color 0.2s, color 0.2s;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
 }

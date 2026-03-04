@@ -92,18 +92,18 @@ export default function Home() {
   return (
     <main>
       {/* Hero */}
-      <section className="px-6 pb-4 pt-20">
+      <section className="px-4 pb-4 pt-16 sm:px-6 sm:pt-20">
         <div className="mx-auto max-w-3xl">
           <FadeIn>
             <ProfilePicture />
           </FadeIn>
           <FadeIn delay={100}>
-            <h1 className="mb-4 text-5xl font-bold tracking-tight text-(--color-text) sm:text-6xl">
+            <h1 className="mb-3 text-4xl font-bold tracking-tight text-(--color-text) sm:mb-4 sm:text-6xl">
               Brian Lee
             </h1>
           </FadeIn>
           <FadeIn delay={200}>
-            <p className="whitespace-nowrap text-xl leading-relaxed text-(--color-text-secondary)">
+            <p className="text-lg leading-relaxed text-(--color-text-secondary) sm:text-xl">
               Product leader building at the intersection of{" "}
               <span className="font-medium text-(--color-accent)">AI</span> and{" "}
               <span className="font-medium text-(--color-accent)">
@@ -116,10 +116,10 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section className="px-6 py-4">
+      <section className="px-4 py-4 sm:px-6">
         <div className="mx-auto max-w-3xl">
           <FadeIn>
-            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-8">
+            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-5 sm:p-8">
               <div className="mb-5 flex items-center gap-2.5">
                 <User size={18} className="text-(--color-accent)" />
                 <h2 className="text-base font-medium tracking-widest uppercase text-(--color-text-secondary)">
@@ -148,11 +148,11 @@ export default function Home() {
               </div>
 
               {/* Stats */}
-              <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+              <div className="mt-6 grid grid-cols-2 gap-3 sm:mt-8 sm:gap-4 sm:grid-cols-4">
                 {STATS.map((stat, i) => (
                   <FadeIn key={stat.label} delay={i * 100}>
-                    <div className="rounded-xl bg-(--color-bg-secondary) p-4 text-center">
-                      <div className="text-2xl font-bold text-(--color-stat)">
+                    <div className="rounded-xl bg-(--color-bg-secondary) p-3 text-center sm:p-4">
+                      <div className="text-xl font-bold text-(--color-stat) sm:text-2xl">
                         {stat.value}
                       </div>
                       <div className="mt-1 text-xs text-(--color-text-secondary)">
@@ -168,10 +168,10 @@ export default function Home() {
       </section>
 
       {/* Current Work */}
-      <section className="px-6 py-5">
+      <section className="px-4 py-5 sm:px-6">
         <div className="mx-auto max-w-3xl">
           <FadeIn>
-            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-8">
+            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-5 sm:p-8">
               <div className="mb-5 flex items-center gap-2.5">
                 <Rocket size={18} className="text-(--color-accent)" />
                 <h2 className="text-base font-medium tracking-widest uppercase text-(--color-text-secondary)">
@@ -180,7 +180,7 @@ export default function Home() {
               </div>
               <div className="space-y-6">
                 <FadeIn delay={100}>
-                  <div className="rounded-xl border border-(--color-border) bg-(--color-bg-secondary) p-5">
+                  <div className="rounded-xl border border-(--color-border) bg-(--color-bg-secondary) p-4 sm:p-5">
                     <div className="mb-1 flex items-center gap-3">
                       <h3 className="text-lg font-semibold text-(--color-text)">
                         AMI SOCIAL
@@ -197,7 +197,7 @@ export default function Home() {
                   </div>
                 </FadeIn>
                 <FadeIn delay={200}>
-                  <div className="rounded-xl border border-(--color-border) bg-(--color-bg-secondary) p-5">
+                  <div className="rounded-xl border border-(--color-border) bg-(--color-bg-secondary) p-4 sm:p-5">
                     <div className="mb-1 flex items-center gap-3">
                       <h3 className="text-lg font-semibold text-(--color-text)">
                         AI Startup Advisory
@@ -221,17 +221,17 @@ export default function Home() {
       </section>
 
       {/* Experience */}
-      <section className="px-6 py-5">
+      <section className="px-4 py-5 sm:px-6">
         <div className="mx-auto max-w-3xl">
           <FadeIn>
-            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-8">
+            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-5 sm:p-8">
               <div className="mb-5 flex items-center gap-2.5">
                 <Briefcase size={18} className="text-(--color-accent)" />
                 <h2 className="text-base font-medium tracking-widest uppercase text-(--color-text-secondary)">
                   Experience
                 </h2>
               </div>
-              <div className="space-y-8">
+              <div className="space-y-6 sm:space-y-8">
                 {EXPERIENCE.map((exp, i) => (
                   <FadeIn key={exp.company + exp.role} delay={i * 80}>
                     <div>
@@ -281,10 +281,10 @@ export default function Home() {
       </section>
 
       {/* Chat */}
-      <section className="px-6 pt-5 pb-20">
+      <section className="px-4 pt-5 pb-20 sm:px-6">
         <div className="mx-auto max-w-3xl">
           <FadeIn>
-            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-8">
+            <div className="rounded-2xl border border-(--color-border) bg-(--color-card) p-5 sm:p-8">
               <div className="mb-2 flex items-center gap-2.5">
                 <MessageCircle size={18} className="text-(--color-accent)" />
                 <h2 className="text-base font-medium tracking-widest uppercase text-(--color-text-secondary)">
